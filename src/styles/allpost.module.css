@@ -1,0 +1,16 @@
+.all-post-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 1px solid;
+    width: 100%;
+    border-radius: 1px;
+    /* font-size:small */
+  }
+  th, td {
+    border: 1px solid;
+    padding: 2px; 
+}

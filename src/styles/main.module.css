@@ -1,0 +1,88 @@
+/* Apply a background image to the entire HTML document */
+body {
+  background-image: url("https://raw.githubusercontent.com/KeertanWork/Formjs_Class_changes/main/FormJS-Library-Mimic-master/background.png");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+/* You can customize these styles according to your preferences */
+
+/* Center the form on the page */
+div {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style checkboxes as labels */
+label input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Add some spacing between hobbies checkboxes */
+label[name="Hobbies"] input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  div {
+    width: 80%;
+  }
+
+  label,
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+  }
+}
